@@ -398,6 +398,11 @@ input{
         border-radius: 40px;
         border: solid rgba(120, 120, 153, 0.356) 1px;
         margin: 50px;
+        transition: all 1s;
+    }
+
+    .productPictures:hover{
+        border-color: gold;
     }
 
     .productMain{
@@ -417,6 +422,11 @@ input{
         width: 350px;
         border: solid grey 1px;
         border-radius: 5px;
+        transition: all 0.3s;
+    }
+
+    input:focus{
+        background-color: rgb(255, 242, 167);
     }
     
     .map{
