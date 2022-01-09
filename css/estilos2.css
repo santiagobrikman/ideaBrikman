@@ -132,14 +132,6 @@ ul{
     transition: width 0.2s
 }
 
-.botonNavegacion:hover{
-    width: 100px;
-    text-align: center;
-    background-color: rgb(180, 180, 180);
-    border-color: gold;
-
-}
-
 main{
     grid-area: main;
     text-align: center;
@@ -351,6 +343,14 @@ input{
         margin: 15px;
         text-align: center;
         border: solid rgb(206, 168, 1);
+    }
+
+    .botonNavegacion:hover{
+        width: 100px;
+        text-align: center;
+        background-color: rgb(180, 180, 180);
+        border-color: gold;
+    
     }
 
     main{
