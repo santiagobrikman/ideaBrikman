@@ -129,7 +129,7 @@ ul{
     margin: 15px;
     text-align: center;
     border: solid rgb(206, 168, 1);
-    transition: width 0.3s
+    transition: width 0.2s
 }
 
 .botonNavegacion:hover{
