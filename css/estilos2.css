@@ -27,7 +27,7 @@ a{
 }
 
 body {
-    background-image: url("../media/web_background.png");
+    background-image: linear-gradient(navy, black);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 13px;
