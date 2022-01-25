@@ -1,0 +1,30 @@
+.productMain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.productPictures{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid rgba(120, 120, 153, 0.356) 1px;
+    margin: 15px;
+}
+
+@media (min-width: 768px) {
+.productMain{
+    display: block;
+}
+
+.productPictures{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid rgba(120, 120, 153, 0.356) 1px;
+    margin: 15px;
+}
+
+}

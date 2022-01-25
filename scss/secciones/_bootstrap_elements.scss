@@ -1,0 +1,102 @@
+.row{
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+}
+
+.btn-primary{
+    background-color: rgb(48, 81, 123);
+    margin-bottom: 4px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    h5{
+        font-size: 16px;
+    }
+}
+
+.card-img-top{
+    margin-top: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+
+@media (min-width: 768px){
+    
+    .btn-primary:focus{
+        background-color: rgb(99, 94, 94);
+        border: solid 1px rgb(255, 208, 0);
+        color:gold;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        .h5{
+            font-size: 16px;
+        }
+    }
+
+    .card-img-top{
+        margin-top: 10px;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+    }
+
+    .row{
+        justify-content: space-around;
+        text-align: center;
+        align-items: stretch;
+    }
+
+    .btn-primary{
+        background-color: rgb(48, 81, 123);
+        margin-bottom: 4px;
+    }
+    .btn-primary:hover{
+        background-color: rgb(255, 208, 0);
+        color: rgb(41, 40, 40);}
+
+    .cart:hover{
+        background-color: rgb(38, 190, 38);
+        color: rgb(41, 40, 40);
+    }
+
+    .carousel-caption{
+        color: rgb(255, 208, 0);
+        background-color: rgba(41, 40, 40, 0.582);
+    }
+
+}

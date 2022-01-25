@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    color: honeydew;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+@media (min-width: 768px){
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: honeydew;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+}
