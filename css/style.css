@@ -1,3 +1,21 @@
+@charset "UTF-8";
+.headerLeft, footer {
+  text-align: center;
+  justify-content: center;
+  align-content: center; }
+
+.nombre {
+  color: Chartreuse;
+  font-weight: bold; }
+
+.año {
+  color: Skyblue;
+  font-weight: bold; }
+
+.clientes {
+  color: Orange;
+  font-weight: bold; }
+
 .productMain {
   display: flex;
   flex-direction: column;
@@ -34,14 +52,14 @@
 
 input {
   height: 30px;
-  border: solid grey 1px;
+  border: solid gray 1px;
   border-radius: 5px; }
 
 .map {
   width: 300px;
   height: 300px;
   align-items: center;
-  border: solid grey 1px;
+  border: solid gray 1px;
   border-radius: 50px;
   margin-top: 50px; }
 
@@ -50,7 +68,7 @@ input {
     width: 600px;
     height: 600px;
     align-items: center;
-    border: solid grey 1px;
+    border: solid gray 1px;
     border-radius: 50px;
     margin-top: 50px; }
   input:focus {
@@ -58,7 +76,7 @@ input {
   input {
     height: 50px;
     width: 350px;
-    border: solid grey 1px;
+    border: solid gray 1px;
     border-radius: 5px;
     transition: all 0.3s; }
   .campoFormulario {
@@ -76,10 +94,7 @@ body {
   display: flex;
   font-size: 10px;
   padding: 20px;
-  text-align: center;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
   flex-wrap: nowrap;
   align-items: center; }
 
@@ -102,7 +117,7 @@ body {
 .searchContainer {
   text-align: center;
   padding: 15px;
-  border: solid grey 1px;
+  border: solid gray 1px;
   border-radius: 3px;
   height: 5vh;
   width: 65vw;
@@ -144,7 +159,7 @@ body {
     padding: 20px;
     text-align: center; }
   .headerRight h4 {
-    color: honeydew;
+    color: green;
     font-size: 12px; }
   .headerRight {
     display: flex;
@@ -156,7 +171,7 @@ body {
   .searchContainer {
     text-align: left;
     padding: 15px;
-    border: solid grey 1px;
+    border: solid gray 1px;
     border-radius: 3px;
     height: 5vh;
     width: 15vw;
@@ -186,7 +201,7 @@ ul {
   height: auto;
   margin: 15px;
   text-align: center;
-  border: solid #cea801;
+  border: solid rgba(41, 40, 40, 0.089);
   transition: width 0.2s; }
 
 @media (min-width: 768px) {
@@ -236,9 +251,6 @@ main h1 {
 footer {
   display: flex;
   color: honeydew;
-  text-align: center;
-  justify-content: center;
-  align-content: center;
   flex-direction: column;
   margin-top: 70px; }
 
@@ -348,7 +360,7 @@ button {
 
 h1 {
   color: #ffd000;
-  font-size: 30px;
+  font-size: 50px;
   padding: 25px; }
 
 @media (min-width: 768px) {

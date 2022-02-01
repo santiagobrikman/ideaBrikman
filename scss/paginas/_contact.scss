@@ -12,7 +12,7 @@
 
 input{
     height: 30px;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 5px;
 }
 
@@ -20,7 +20,7 @@ input{
     width: 300px;
     height: 300px;
     align-items: center;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 50px;
     margin-top: 50px;
 }
@@ -32,19 +32,19 @@ input{
     width: 600px;
     height: 600px;
     align-items: center;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 50px;
     margin-top: 50px;
 }
 
 input:focus{
-    background-color: rgb(255, 242, 167);
+    background-color: $amarilloFocus;
 }
 
 input{
     height: 50px;
     width: 350px;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 5px;
     transition: all 0.3s;
 }

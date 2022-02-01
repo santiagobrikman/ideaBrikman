@@ -1,18 +1,16 @@
 .headerLeft{
+    @extend %estilos1;
     display: flex;
     font-size: 10px;
     padding: 20px;
-    text-align: center;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 .headerLeft h2{
     font-size: 30px;
-    color: rgb(255, 208, 0);
+    color: $amarilloBase;
     font-weight: bold;
     margin: 10px;
     text-align: left;
@@ -32,7 +30,7 @@
 .searchContainer{
     text-align: center;
     padding: 15px;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 3px;
     height: 5vh;
     width: 65vw;
@@ -42,17 +40,18 @@
 
 .headerRight{
     display: flex;
-    color: honeydew;
+    color: $crema; 
     text-align: center;
     padding: 15px;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .headerRight h4{
-    color: honeydew;
+    color: $crema;
     font-size: 12px;
 }
 
@@ -73,7 +72,7 @@
 
 .headerLeft h2{
     font-size: 30px;
-    color: rgb(255, 208, 0);
+    color: $amarilloBase;
     font-weight: bold;
     margin: 10px;
     text-align: left;
@@ -85,8 +84,12 @@
     text-align: center;
 }
 
+$estilos:(
+    colorin: green
+);
+
 .headerRight h4{
-    color: honeydew;
+    color: map-get($map: $estilos, $key: colorin);
     font-size: 12px;
 }
 
@@ -102,7 +105,7 @@
 .searchContainer{
     text-align: left;
     padding: 15px;
-    border: solid grey 1px;
+    border: solid $gris 1px;
     border-radius: 3px;
     height: 5vh;
     width: 15vw;

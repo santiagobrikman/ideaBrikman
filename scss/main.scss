@@ -1,4 +1,9 @@
-@import "./variables/variables";
+//Primero variables
+@import "./variables/colores";
+@import "./variables/extend";
+@import "./variables/mixin";
+@import "./variables/maps";
+
 @import "./paginas/index";
 @import "./paginas/products";
 @import "./paginas/contact";
@@ -22,7 +27,7 @@
 
 a{
     text-decoration: none;
-    color: rgb(41, 40, 40);
+    color: $grisBordeBoton1;
 }
 
 button{
@@ -31,15 +36,13 @@ button{
 }
 
 .textoPrincipal{
-    color: rgb(255, 208, 0);
+    color: $amarilloBase;
     padding: 25px;
     font-size: 15px;
 }
 
 h1{
-    color: rgb(255, 208, 0);
-    font-size: 30px;
-    padding: 25px;
+    @include titulos ($amarilloBase);
 }
 
 @media (min-width: 768px){
@@ -57,9 +60,7 @@ h1{
     }
 
     h1{
-        color: rgb(255, 208, 0);
-        font-size: 50px;
-        padding: 25px;
+        @include titulos ($amarilloBase);
     }
 
     h5{

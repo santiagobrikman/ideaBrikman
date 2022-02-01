@@ -1,9 +1,7 @@
 footer {
+    @extend %estilos1;
     display: flex;
-    color: honeydew;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+    color: $crema;
     flex-direction: column;
     margin-top: 70px;
 }
@@ -13,7 +11,7 @@ footer {
 footer {
     display: flex;
     flex-direction: column;
-    color: honeydew;
+    color: $crema;
     text-align: center;
     justify-content: center;
     margin-top: 70px;

@@ -1,0 +1,12 @@
+$textoResaltado: (
+    nombre: Chartreuse,
+    año: Skyblue,
+    clientes: Orange,
+);
+
+@each $palabras, $color in $textoResaltado {
+    .#{$palabras}{
+        color: $color;
+        font-weight: bold;
+    }
+}
