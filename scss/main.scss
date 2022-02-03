@@ -4,8 +4,11 @@
 @import "./variables/mixin";
 @import "./variables/maps";
 
+// @import "node_modules/bootstrap/scss/bootstrap";
+
 @import "./paginas/index";
 @import "./paginas/products";
+@import "./paginas/about";
 @import "./paginas/contact";
 @import "./secciones/body";
 @import "./secciones/header";
@@ -85,9 +88,6 @@ h1{
     a{
         text-decoration: none;
         color: rgb(41, 40, 40);
-        &:hover{
-            color: rgb(255, 208, 0);
-        }
     }
 
 

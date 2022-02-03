@@ -1,0 +1,10 @@
+.indexMain{
+    height: 210px;
+}
+
+@media (min-width: 768px) {
+    .indexMain{
+        height: auto;
+    }
+
+}

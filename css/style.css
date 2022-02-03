@@ -16,10 +16,18 @@
   color: Orange;
   font-weight: bold; }
 
+.indexMain {
+  height: 210px; }
+
+@media (min-width: 768px) {
+  .indexMain {
+    height: auto; } }
+
 .productMain {
   display: flex;
   flex-direction: column;
-  margin-left: 20px; }
+  margin-left: 20px;
+  height: auto; }
 
 .productPictures {
   width: 100px;
@@ -31,7 +39,8 @@
 
 @media (min-width: 768px) {
   .productMain {
-    display: block; }
+    display: block;
+    height: 750px; }
   .productPictures {
     width: 100px;
     height: 100px;
@@ -40,12 +49,20 @@
     border: solid rgba(120, 120, 153, 0.356) 1px;
     margin: 15px; } }
 
+.aboutMain {
+  height: auto; }
+
+@media (min-width: 768px) {
+  .aboutMain {
+    height: 750px; } }
+
 .contactMain {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  align-items: center; }
+  align-items: center;
+  height: auto; }
 
 .campoFormulario {
   padding: 5px; }
@@ -183,58 +200,63 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  list-style: none; }
-
-.listaNavegacion {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   list-style: none;
-  background-color: rgba(120, 120, 153, 0.356);
-  padding: 1px; }
+  font-size: medium; }
 
-.botonNavegacion {
+.barraNavegacion {
+  background-color: #ffd000; }
+  .barraNavegacion a {
+    color: #635e5e; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #635e5e;
   background-color: #ffd000;
-  padding: 5px;
-  border-radius: 3px;
-  width: 90px;
-  height: auto;
-  margin: 15px;
-  text-align: center;
-  border: solid rgba(41, 40, 40, 0.089);
-  transition: width 0.2s; }
+  border-color: #ffd000; }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover {
+  background-color: #635e5e;
+  color: #ffd000;
+  border-color: #ffd000; }
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  background-color: #635e5e;
+  color: #ffd000;
+  border-color: #ffd000; }
 
 @media (min-width: 768px) {
-  .listaNavegacion {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    background-color: rgba(120, 120, 153, 0.356);
-    padding: 1px; }
-  .botonNavegacion {
-    display: flex;
-    width: 90px;
-    text-align: center;
-    height: 30px;
-    border-radius: 2px;
+  .barraNavegacion {
+    background-image: linear-gradient(#ffd000, #bd9c09); }
+    .barraNavegacion a {
+      color: #635e5e; }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #635e5e;
     background-color: #ffd000;
-    border: solid rgba(41, 40, 40, 0.089) 1px;
-    transition: width 0.2s;
-    align-items: center;
-    justify-content: center; }
-    .botonNavegacion:hover {
-      width: 100px;
-      text-align: center;
-      background-color: #635e5e;
-      border: solid 1px #ffd000; } }
+    border-color: #ffd000; }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover {
+    background-color: #635e5e;
+    color: #ffd000;
+    border-color: #ffd000; }
+  .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    background-color: #635e5e;
+    color: #ffd000;
+    border-color: #ffd000;
+    width: 101%; }
+  .nav-tabs {
+    border: 0px solid #635e5e; }
+  .nav-tabs .nav-link {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem; } }
 
 main {
   display: flex;
   text-align: center;
-  flex-direction: column;
-  height: 750px; }
+  flex-direction: column; }
 
 main h1 {
   text-align: center;
@@ -390,6 +412,4 @@ h1 {
     font-size: 25px; }
   a {
     text-decoration: none;
-    color: #292828; }
-    a:hover {
-      color: #ffd000; } }
+    color: #292828; } }
