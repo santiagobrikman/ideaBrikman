@@ -30,8 +30,8 @@ input{
 @media (min-width: 768px){
 
 .map{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     align-items: center;
     border: solid $gris 1px;
     border-radius: 50px;
@@ -57,6 +57,19 @@ input{
 .contactMain{
     display: block;
 
+}
+
+.contactItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.campoFormularioMessage{
+    height: 120px;
 }
 
 }
