@@ -192,7 +192,7 @@ body {
   .headerRight {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: flex-end;
     text-align: right;
     padding: 20px; }
@@ -209,6 +209,8 @@ body {
     font-size: 12px;
     font-style: italic; }
   .logoHome {
+    filter: invert(86%) sepia(25%) saturate(3835%) hue-rotate(358deg) brightness(100%) contrast(106%); }
+  .cartIcon {
     filter: invert(86%) sepia(25%) saturate(3835%) hue-rotate(358deg) brightness(100%) contrast(106%); } }
 
 .navbar {
