@@ -298,6 +298,13 @@ footer {
   flex-direction: column;
   margin-top: 70px; }
 
+.icons {
+  filter: invert(86%) sepia(25%) saturate(3835%) hue-rotate(358deg) brightness(100%) contrast(106%); }
+
+.icon {
+  margin-left: 20px;
+  margin-right: 20px; }
+
 @media (min-width: 768px) {
   footer {
     display: flex;
@@ -305,7 +312,12 @@ footer {
     color: honeydew;
     text-align: center;
     justify-content: center;
-    margin-top: 70px; } }
+    margin-top: 70px; }
+  .icons {
+    filter: invert(86%) sepia(25%) saturate(3835%) hue-rotate(358deg) brightness(100%) contrast(106%); }
+  .icon {
+    margin-left: 20px;
+    margin-right: 20px; } }
 
 .row {
   justify-content: space-around;
